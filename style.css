@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Courier New', Courier, monospace; 
+}
+
+body {
+    background-color: #F7F5E8;
+}
+
+
+.flex-container img{
+    margin: auto;
+    display: block;
+    width: auto;
+}
+
+.flex-container h1{
+    display: flex;
+    position: relative;
+    bottom: 620px;
+    left: 500px;
+    
+}
+
+.box{
+    background-color: #F7F5E8;
+    padding: 25px;
+    position: relative;
+    bottom: 630px;
+    left: 310px;
+    width: 65.1%;
+
+    
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+header .list-items{
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    align-items: right;
+}
+
+.list-items li a{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    color: #210E10;
+    text-align: center;
+    width: 120px;
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    height: 10px;
+    bottom: 662px;
+    left: 200px;
+    padding-left: 60px;
+}
+
+.list-items img{
+    display: flex;
+    position: relative;
+    bottom: 680px;
+    width: 95%;
+    left: 350px;
+}
+
+
+#sub{
+    display: flex;
+    position: relative;
+    left: 160px;
+    bottom: 645px;
+}
+
+header .list-items2{
+    display: flex;
+    max-width: 250px;
+    width: auto;
+    align-items: right;
+}
+
+.list-items2 img{
+    display: flex;
+    position: relative;
+    width: 30px;
+    bottom: 660px;
+    left: 1300px;
+}
+
