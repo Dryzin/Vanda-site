@@ -9,18 +9,18 @@
 }
 
 body {
-    background-color: #dd89617a;
+    background-color: #ffffff;
 }
 
-.promo {
+.promo img{
+    margin: auto;
     display: flex;
-    position: relative;
-    bottom: 650px;
-    left: 20%;
-    width: 1150px;
-    height: 520px;
+    width: auto;
 }
 
+.flex-container {
+    align-items: center;
+}
 
 .flex-container img{
     margin: auto;
@@ -41,16 +41,6 @@ body {
     padding: 25px;
     position: relative;
     bottom: 630px;
-    left: 300px;
-    width: 65.8%;
-}
-
-.box2{
-    background-color: #ffffff;
-    padding: 25px;
-    position: relative;
-    top: -135px;
-    padding-top: 490px;
     left: 300px;
     width: 65.8%;
 }
